@@ -9,7 +9,7 @@ export default {
         sourceSans: ['"Source Sans Pro"', 'sans-serif'],
     },
     colors:{
-     primary:'#FFD700'
+     primary:'#594A4A'
     }
   },
   plugins: [],
