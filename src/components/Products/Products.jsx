@@ -43,7 +43,7 @@ const products = [
 const ProductCard = ({ image, title, description, button}) => {
   return (
     <div
-      className="bg-primary rounded-lg shadow-lg transition-transform transform hover:shadow-2xl hover:translate-y-2"
+      className="bg-primary rounded-lg shadow-lg transition-transform transform hover:shadow-2xl hover:scale-105"
     >
       <div className="flex flex-col items-center justify-center pt-6">
        
@@ -54,7 +54,9 @@ const ProductCard = ({ image, title, description, button}) => {
         <p className="text-secondary text-sm text-center mb-4">
           {description}
         </p>
+        <button>
         <img src={button} alt="Button" className="w-32 mx-auto" />
+        </button>
       </div>
     </div>
   );
@@ -64,7 +66,7 @@ const Products = () => {
   return (
     <div className="container mx-auto mt-8 ">
       {/* Grid container for the cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {/* render card */}
         {products.map((product) => (
           <ProductCard

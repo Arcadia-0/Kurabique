@@ -1,39 +1,40 @@
 import hero from "../../assets/hero/hero.png";
-import herobutton from "../../assets/hero/herobutton.png"
+import herobutton from "../../assets/hero/herobutton.png";
 
 const Hero = () => {
   return (
     <div className="bg-primary py-8">
-      <div className="container mx-auto flex justify-between items-center px-4 lg:px-0 flex-col lg:flex-row ">
-        {/* Sol taraf - Metin */}
-        <div className="text-secondary lg:w-1/2">
-          <h1 className="text-3xl font-semibold">Kurabiye var pasta var</h1>
-          <p className="max-w-[700px] mt-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At iure
-            numquam aliquam commodi maiores voluptates exercitationem magni
-            ducimus aut a dolore excepturi ex, adipisci nostrum. Quidem
-            perferendis quod error hic nobis placeat doloremque libero labore
-            cumque, accusantium, ipsum officiis dolorem cupiditate nam, corporis
-            ut alias voluptatibus optio vero eveniet eum minus voluptas iusto.
-            Vitae quibusdam minus consequuntur, magni eos, repellat doloremque
-            qui distinctio voluptate aut ut quas deleniti quaerat, iusto
-            cupiditate repudiandae! Quod, id minima. Officiis molestiae
-            consequatur vero. Quos possimus aspernatur autem illo obcaecati
-            voluptatem, eos necessitatibus facere tempora veniam assumenda,
-            architecto sit eius inventore nemo laborum quae quod.
-          </p>
-          <button 
-  
-  className="bg-transparent border-0 p-0" 
-  aria-label="Hero Butonu"
->
-  <img src={herobutton} alt="Hero buton" className="w-48 h-auto cursor-pointer pt-4" />
-</button>
-        </div>
+      <div className="container mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center justify-center">
+          
+          {/* Left Side */}
+          <div className="text-secondary text-center sm:text-start">
+            <h1 className="text-3xl lg:text-4xl font-semibold">Hoş Geldiniz!</h1>
+            <p className="text-lg">
+              Lezzetli tatların ve özenle hazırlanmış hediyeliklerin buluşma noktası olan dükkanımıza hoş geldiniz!
+              Kurabiyelerimizden keklerimize, enfes çikolatalarımızdan özel hediyeliklerimize kadar her ürünümüz,
+              en taze ve kaliteli malzemelerle, sevgiyle hazırlanmaktadır. Sizin ve sevdiklerinizin mutlu anlarına tat katmak
+              için buradayız. Bir yudum mutluluk arayanlar, özel günlerini daha da güzelleştirmek isteyenler ve sevdiklerine unutulmaz
+              hediyeler almak isteyenler için farklı ve yaratıcı seçenekler sunuyoruz. Her bir ürünümüz, hem gözünüzü hem de damak tadınızı
+              şenlendirecek. Dükkanımıza göz atın, sevdiklerinize özel tatlar keşfedin!
+            </p>
+            <button className="mt-4">
+              <img
+                src={herobutton}
+                alt="Hero buton"
+                className="w-48 h-auto cursor-pointer"
+              />
+            </button>
+          </div>
 
-        {/* Sağ taraf - Resim */}
-        <div className="lg:w-1/2 mt-8 lg:mt-0">
-          <img src={hero} alt="Hero" className="w-full h-auto" />
+          {/* Right-Side */}
+          <div className="flex justify-center lg:justify-end">
+            <img
+              src={hero}
+              alt="Hero"
+              className="w-full h-auto object-cover lg:max-w-[600px] rounded-lg"
+            />
+          </div>
         </div>
       </div>
     </div>
