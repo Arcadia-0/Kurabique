@@ -42,7 +42,7 @@ export const Navbar = () => {
 
   return (
     <nav className="text-primary shadow-md  w-full top-0 left-0 z-50 ">
-      <div className="container mx-auto p-4 flex items-center justify-between relative">
+      <div className="container mx-auto py-4 flex items-center justify-between relative">
         {/* Logo */}
         <img src={logo} alt="Logo" className="h-12" />
 
