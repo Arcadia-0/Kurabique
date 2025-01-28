@@ -1,3 +1,4 @@
+
 export default {
   content: [
     "./index.html",
@@ -6,13 +7,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sourceSans: ['"Source Sans Pro"', 'sans-serif'],
+        poppins: ['"Poppins"', 'sans-serif'],
+      },
+      colors: {
+        primary: '#594A4A',
+        secondary: '#F7F1E1'
+      }
     },
-    colors:{
-     primary:'#594A4A',
-     secondary:'#F7F1E1'
-    }
   },
   plugins: [],
 }
- }

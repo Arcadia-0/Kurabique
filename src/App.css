@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;  
 }
 
 @tailwind base;
@@ -8,5 +8,5 @@ html {
 
 body {
   background-color: #FFD37C;
- 
+  font-family: 'Poppins', sans-serif;
 }
