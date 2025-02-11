@@ -9,7 +9,7 @@ const Hero = () => {
           
           {/* Left Side */}
           <div className="text-secondary text-center sm:text-start">
-            <h1 className="text-3xl lg:text-4xl font-semibold">Hoş Geldiniz!</h1>
+            <h1 className="text-3xl lg:text-4xl font-semibold">Kurabique Hoş Geldiniz!</h1>
             <p className="text-lg">
               Lezzetli tatların ve özenle hazırlanmış hediyeliklerin buluşma noktası olan dükkanımıza hoş geldiniz!
               Kurabiyelerimizden keklerimize, enfes çikolatalarımızdan özel hediyeliklerimize kadar her ürünümüz,
