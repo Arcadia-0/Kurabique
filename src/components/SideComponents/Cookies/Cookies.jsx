@@ -21,9 +21,9 @@ const products = [
   {
     id: 2,
     image: product_2,
-    title: "Dark Chocolate Chip",
+    title: "Spiced Apple White Chip",
     description:
-      "Bitter çikolata damlalarıyla yoğun bir tat sunan bu kurabiye, klasik tatlardan farklı bir deneyim arayanlar için ideal.",
+      "Tarçın ve elma aromalarının mükemmel uyumunu, beyaz çikolata damlalarının tatlılığıyla birleştirdik. Her lokmada sıcak bir huzur sunan bu kurabiye, kış aylarının favorisi olacak!",
     button: button,
   },
   {
@@ -31,47 +31,47 @@ const products = [
     image: product_3,
     title: "Peanut Butter Chip",
     description:
-      "Yer fıstığı ezmesiyle zenginleştirilen bu kurabiye, tatlı ve tuzlu karışımını sevenler için mükemmel bir seçenek.",
+      "Fıstık ezmesinin zengin tadı ve brownie’nin yoğun çikolatalı dokusuyla buluştuğu bu kurabiye, tatlı krizlerinizi anında çözecek! Hem gevrek hem de yumuşacık, fıstık severlerin vazgeçilmezi.",
     button: button,
   },
   {
     id: 4,
     image: product_4,
-    title: "Oatmeal Raisin",
+    title: "The Original Pink Sugar",
     description:
-      "Yulaf ve kuru üzümle yapılan bu kurabiye, hem sağlıklı hem de leziz bir atıştırmalık.",
+      "Hafif vanilyalı ve tatlı şekerli tadı, pürüzsüz dokusu ve pembe şekerle kaplanmış dış yüzeyiyle, her ısırıkta nostaljik bir mutluluk yaşatan klasik bir kurabiye.",
     button: button,
   },
   {
     id: 5,
     image: product_5,
-    title: "White Chocolate Macadamia",
+    title: "Nilla Bean Cupcake",
     description:
-      "Beyaz çikolata ve makademya fıstığı ile tatlandırılmış bu kurabiye, yumuşak iç yapısı ve zengin aromasıyla dikkat çeker.",
+      "Vanilya çekirdeklerinin doğal ve zengin aromasıyla hazırlanmış bu kurabiye, bir cupcakenin yumuşak dokusunu ve hafif tatlılığını sunuyor.",
     button: button,
   },
   {
     id: 6,
     image: product_6,
-    title: "Coconut Almond",
+    title: "Strawberry Cheesecake",
     description:
-      "Hindistancevizi ve bademle yapılan bu kurabiye, tropikal bir tat sunar ve oldukça besleyicidir.",
+      "Taze çileklerin ferahlatıcı tadı ve kremalı peynirin zengin dokusuyla hazırlanan bu kurabiye, cheesecake tutkunlarını mest edecek!",
     button: button,
   },
   {
     id: 7,
     image: product_7,
-    title: "Chocolate Brownie",
+    title: "Waffle Chip",
     description:
-      "Yoğun çikolata tadı ve kahverengi kek kıvamı ile bu kurabiye, klasik brownie tutkunları için mükemmel bir alternatif.",
+      "Hafif çıtır waffle dokusu ve ince şekerli lezzetiyle, kahvaltı keyfini kurabiyeye taşıyan bu tat, bir yudumda huzur veriyor.",
     button: button,
   },
   {
     id: 8,
     image: product_8,
-    title: "Lemon Shortbread",
+    title: "White Chocolate Chip",
     description:
-      "Limonlu, tereyağlı ve gevrek bu kurabiye, hafif asidik tadı ile tatlılardan farklı bir seçenek sunar.",
+      "Beyaz çikolatanın kremsi tatlılığı ve yumuşacık dokusuyla, her ısırıkta zarif bir lezzet sunan bu kurabiye, çikolata severlerin gönlünü fethedecek.",
     button: button,
   },
 ];
