@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import {Link} from "react-router-dom"
 import logo from "../../assets/logo.png";
 import { FaArrowUp, FaBars, FaSearch, FaInstagram } from "react-icons/fa"; // Instagram ve Search ikonları
 
@@ -62,20 +63,20 @@ export const Navbar = () => {
         >
           <ul className="flex flex-col lg:flex-row lg:space-x-8 text-center lg:text-left">
             <li>
-              <a
-                href="#cookies"
+              <Link to="/cookies"
+               
                 className="text-xl font-semibold hover:text-primary transition duration-300"
               >
                 Kurabiyeler
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#cakes"
+              <Link to="/cakes"
+                
                 className="text-xl font-semibold hover:text-primary transition duration-300"
               >
                 Kekler
-              </a>
+              </Link>
             </li>
             <li>
               <a
