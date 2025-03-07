@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import product_1 from "../../../assets/SideAssets/cakes/product_1.png";
 import product_2 from "../../../assets/SideAssets/cakes/product_2.png";
 import product_3 from "../../../assets/SideAssets/cakes/product_3.png";
@@ -76,6 +77,10 @@ const products = [
 ];
 
 const Cakes = () => {
+useEffect(()=>{
+  window.scrollTo(0,0);
+})
+
   return (
     <div className="my-6 container mx-auto">
       {/* Grid layout */}

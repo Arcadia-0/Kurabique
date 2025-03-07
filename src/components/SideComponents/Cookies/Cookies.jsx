@@ -7,6 +7,7 @@ import product_6 from "../../../assets/SideAssets/cookies/product_6.png";
 import product_7 from "../../../assets/SideAssets/cookies/product_7.png";
 import product_8 from "../../../assets/SideAssets/cookies/product_8.png";
 import button from "../../../assets/SideAssets/cookies/button.png";
+import { useEffect } from "react";
 
 // Ürün verisi
 const products = [
@@ -77,6 +78,12 @@ const products = [
 ];
 
 const Cookies = () => {
+
+  useEffect(()=> {
+    scrollTo(0,0);
+  })
+
+
   return (
     <div className="my-6 container mx-auto">
       {/* Grid yapılandırması */}

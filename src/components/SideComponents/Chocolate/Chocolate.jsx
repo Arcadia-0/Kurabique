@@ -7,6 +7,7 @@ import product_6 from "../../../assets/SideAssets/chocolate/product_6.png";
 import product_7 from "../../../assets/SideAssets/chocolate/product_7.png";
 import product_8 from "../../../assets/SideAssets/chocolate/product_8.png";
 import button from "../../../assets/SideAssets/chocolate/button.png";
+import { useEffect } from "react";
 
 
 const products = [
@@ -81,6 +82,11 @@ const products = [
 
 
 const Chocolate = () => {
+  
+  useEffect(()=>{
+    scrollTo(0,0);
+  })
+  
   return (
     <div className="my-6 container mx-auto">
           {/* Grid layout */}
