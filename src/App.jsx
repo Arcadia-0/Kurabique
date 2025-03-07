@@ -8,11 +8,15 @@ import Navbar from './components/Navbar/Navbar';
 import Products from './components/Products/Products';
 import Cookies from './components/SideComponents/Cookies/Cookies';
 import Cakes from './components/SideComponents/Cakes/Cakes';
+import Chocolate from './components/SideComponents/Chocolate/Chocolate';
+import Gifts from './components/SideComponents/Gifts/Gifts';
+import Contact from './components/SideComponents/Contact/Contact';
 
 function App() {
   return (
     <div>
       <Navbar />
+      
 
       <Routes>
         {/* Ana sayfa ("/") */}
@@ -26,8 +30,11 @@ function App() {
         } />
 
         {/* /cookies sayfası için sadece Cookies bileşeni gösterilir */}
-        <Route path='/cookies' element={<Cookies />} />
+        <Route path='/cookies' element={<Cookies />} />        
         <Route path='/cakes' element={<Cakes />} />
+        <Route path='/chocolate' element={<Chocolate />} />
+        <Route path='/gifts' element={<Gifts />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
 
       {/* Footer her sayfada görünür */}

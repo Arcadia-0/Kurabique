@@ -45,7 +45,7 @@ export const Navbar = () => {
     <nav className="text-primary shadow-md  w-full top-0 left-0 z-50 ">
       <div className="container mx-auto py-4 flex items-center justify-between relative">
         {/* Logo */}
-        <img src={logo} alt="Logo" className="h-12" />
+       <Link to="/"> <img src={logo} alt="Logo" className="h-12" /></Link>
 
         {/* Hamburger Button (Mobile) */}
         <button
@@ -64,43 +64,38 @@ export const Navbar = () => {
           <ul className="flex flex-col lg:flex-row lg:space-x-8 text-center lg:text-left">
             <li>
               <Link to="/cookies"
-               
                 className="text-xl font-semibold hover:text-primary transition duration-300"
               >
                 Kurabiyeler
               </Link>
             </li>
             <li>
-              <Link to="/cakes"
-                
+              <Link to="/cakes" 
                 className="text-xl font-semibold hover:text-primary transition duration-300"
               >
                 Kekler
               </Link>
             </li>
             <li>
-              <a
-                href="#chocolate"
+              <Link to="chocolate"
                 className="text-xl font-semibold hover:text-primary transition duration-300"
               >
                 Çikolata
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#gifts"
+              <Link to ="gifts" 
                 className="text-xl font-semibold hover:text-primary transition duration-300"
               >
                 Hediyelik
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#contact"
+              <Link to ="contact"
                 className="text-xl font-semibold hover:text-primary transition duration-300"
               >
                 İletişim
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
