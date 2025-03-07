@@ -8,6 +8,7 @@ import product_7 from "../../../assets/SideAssets/gifts/product_7.png";
 import product_8 from "../../../assets/SideAssets/gifts/product_8.png";
 import button from "../../../assets/SideAssets/gifts/button.png";
 import { useEffect } from "react";
+import BackButton from "../BackButton/BackButton";
 
 const products = [
   {
@@ -80,12 +81,14 @@ const products = [
 
 
 const Gifts = () => {
+  
 
   useEffect (()=> {
     scrollTo(0,0);
   })
   return (
   <div className="my-6 container mx-auto">
+    <BackButton/>
             {/* Grid layout */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
               {products.map((product) => (

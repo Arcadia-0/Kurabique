@@ -8,6 +8,7 @@ import product_7 from "../../../assets/SideAssets/cookies/product_7.png";
 import product_8 from "../../../assets/SideAssets/cookies/product_8.png";
 import button from "../../../assets/SideAssets/cookies/button.png";
 import { useEffect } from "react";
+import BackButton from "../BackButton/BackButton";
 
 // Ürün verisi
 const products = [
@@ -86,6 +87,7 @@ const Cookies = () => {
 
   return (
     <div className="my-6 container mx-auto">
+      <BackButton/>
       {/* Grid yapılandırması */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
         {products.map((product) => (

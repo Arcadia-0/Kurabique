@@ -1,5 +1,6 @@
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import logo from "../../assets/logo.png";
+import {Link} from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -21,10 +22,10 @@ const Footer = () => {
           <div className="lg:col-span-2 md:col-span-4 col-span-12">
             <h5 className="tracking-wide font-semibold">ÜRÜNLER</h5>
             <ul className="mt-6 space-y-2">
-              <li><a href="#">Kurabiyeler</a></li>
-              <li><a href="#">Kekler</a></li>
-              <li><a href="#">Çikolatalar</a></li>
-              <li><a href="#">Hediyelikler</a></li>
+              <li><Link to="cookies" >Kurabiyeler</Link></li>
+              <li><Link to="cakes">Kekler</Link></li>
+              <li><Link to="chocolate" >Çikolatalar</Link></li>
+              <li><Link to="gifts" >Hediyelikler</Link></li>
             </ul>
           </div>
 

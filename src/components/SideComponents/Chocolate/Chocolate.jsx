@@ -8,6 +8,7 @@ import product_7 from "../../../assets/SideAssets/chocolate/product_7.png";
 import product_8 from "../../../assets/SideAssets/chocolate/product_8.png";
 import button from "../../../assets/SideAssets/chocolate/button.png";
 import { useEffect } from "react";
+import BackButton from "../BackButton/BackButton";
 
 
 const products = [
@@ -89,6 +90,7 @@ const Chocolate = () => {
   
   return (
     <div className="my-6 container mx-auto">
+      <BackButton/>
           {/* Grid layout */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
             {products.map((product) => (
