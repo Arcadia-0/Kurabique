@@ -11,6 +11,7 @@ import Cakes from './components/SideComponents/Cakes/Cakes';
 import Chocolate from './components/SideComponents/Chocolate/Chocolate';
 import Gifts from './components/SideComponents/Gifts/Gifts';
 import Contact from './components/SideComponents/Contact/Contact';
+import AllProducts from './components/SideComponents/AllProducts/AllProducts';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path='/chocolate' element={<Chocolate />} />
         <Route path='/gifts' element={<Gifts />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/allproducts' element={<AllProducts />} />
       </Routes>
 
       {/* Footer her sayfada görünür */}

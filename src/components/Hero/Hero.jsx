@@ -1,5 +1,6 @@
 import hero from "../../assets/hero/hero.png";
 import herobutton from "../../assets/hero/herobutton.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -18,6 +19,7 @@ const Hero = () => {
               hediyeler almak isteyenler için farklı ve yaratıcı seçenekler sunuyoruz. Her bir ürünümüz, hem gözünüzü hem de damak tadınızı
               şenlendirecek. Dükkanımıza göz atın, sevdiklerinize özel tatlar keşfedin!
             </p>
+            <Link to="/allproducts">
             <button className="mt-4">
               <img
                 src={herobutton}
@@ -25,6 +27,7 @@ const Hero = () => {
                 className="w-48 h-auto cursor-pointer"
               />
             </button>
+            </Link>
           </div>
 
           {/* Right-Side */}

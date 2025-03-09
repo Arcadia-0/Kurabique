@@ -77,21 +77,21 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="chocolate"
+              <Link to="/chocolate"
                 className="text-xl font-semibold hover:text-primary transition duration-300"
               >
                 Çikolata
               </Link>
             </li>
             <li>
-              <Link to ="gifts" 
+              <Link to ="/gifts" 
                 className="text-xl font-semibold hover:text-primary transition duration-300"
               >
                 Hediyelik
               </Link>
             </li>
             <li>
-              <Link to ="contact"
+              <Link to ="/contact"
                 className="text-xl font-semibold hover:text-primary transition duration-300"
               >
                 İletişim
