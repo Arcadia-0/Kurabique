@@ -82,7 +82,7 @@ const products = [
 
 
 
-const Chocolate = () => {
+const Chocolate = ({ showBackButton = true }) => {
   
   useEffect(()=>{
     scrollTo(0,0);
@@ -90,7 +90,7 @@ const Chocolate = () => {
   
   return (
     <div className="my-6 container mx-auto">
-      <BackButton/>
+       {showBackButton && <BackButton />}
           {/* Grid layout */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
             {products.map((product) => (

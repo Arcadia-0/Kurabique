@@ -80,7 +80,7 @@ const products = [
 
 
 
-const Gifts = () => {
+const Gifts = ({showBackButton = true}) => {
   
 
   useEffect (()=> {
@@ -88,7 +88,7 @@ const Gifts = () => {
   })
   return (
   <div className="my-6 container mx-auto">
-    <BackButton/>
+    {showBackButton && <BackButton/>}
             {/* Grid layout */}
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
               {products.map((product) => (

@@ -7,7 +7,7 @@ import product_5 from "../../../assets/SideAssets/cakes/product_5.png";
 import product_6 from "../../../assets/SideAssets/cakes/product_6.png";
 import product_7 from "../../../assets/SideAssets/cakes/product_7.png";
 import product_8 from "../../../assets/SideAssets/cakes/product_8.png";
-import button from "../../../assets/SideAssets/cookies/button.png";
+import button from "../../../assets/SideAssets/cakes/button.png";
 import BackButton from "../BackButton/BackButton";
 
 const products = [
@@ -77,14 +77,15 @@ const products = [
   },
 ];
 
-const Cakes = () => {
-useEffect(()=>{
-  window.scrollTo(0,0);
-})
+const Cakes = ({ showBackButton = true }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="my-6 container mx-auto">
-      <BackButton/>
+      {/* Conditionally render BackButton based on showBackButton prop */}
+      {showBackButton && <BackButton />}
       {/* Grid layout */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
         {products.map((product) => (
