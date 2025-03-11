@@ -1,11 +1,11 @@
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import logo from "../../assets/logo.png";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white  mt-8">
-      <div className="container mx-auto py-14 ">
+    <footer className="bg-primary text-white mt-8">
+      <div className="container mx-auto py-14">
         <div className="grid md:grid-cols-12 grid-cols-1 gap-7">
           {/* Logo and description */}
           <div className="lg:col-span-4 col-span-12">
@@ -22,10 +22,10 @@ const Footer = () => {
           <div className="lg:col-span-2 md:col-span-4 col-span-12">
             <h5 className="tracking-wide font-semibold">ÜRÜNLER</h5>
             <ul className="mt-6 space-y-2">
-              <li><Link to="cookies" >Kurabiyeler</Link></li>
+              <li><Link to="cookies">Kurabiyeler</Link></li>
               <li><Link to="cakes">Kekler</Link></li>
-              <li><Link to="chocolate" >Çikolatalar</Link></li>
-              <li><Link to="gifts" >Hediyelikler</Link></li>
+              <li><Link to="chocolate">Çikolatalar</Link></li>
+              <li><Link to="gifts">Hediyelikler</Link></li>
             </ul>
           </div>
 
@@ -57,15 +57,18 @@ const Footer = () => {
             </ul>
 
             {/* Social Media */}
-            <div className="mt-6 flex space-x-4">
-              <a href="#">
-                <FaFacebook size={24} />
+            <div className="mt-6 flex space-x-6 justify-center md:justify-start">
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <FaFacebookF className="text-2xl text-white hover:text-blue-600 transition duration-300" />
               </a>
-              <a href="#">
-                <FaInstagram size={24} />
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <FaInstagram className="text-2xl text-white hover:text-pink-500 transition duration-300" />
               </a>
-              <a href="#">
-                <FaTwitter size={24} />
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                <FaTwitter className="text-2xl text-white hover:text-blue-400 transition duration-300" />
+              </a>
+              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                <FaYoutube className="text-2xl text-white hover:text-red-600 transition duration-300" />
               </a>
             </div>
           </div>

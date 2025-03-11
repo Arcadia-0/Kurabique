@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";  // Link bileşenini ekliyoruz
+import { Link } from "react-router-dom";  
 import cookie from "../../assets/products/cookie.png";
 import cake from "../../assets/products/cake.png";
 import chocolate from "../../assets/products/chocolate.png";
@@ -13,7 +13,7 @@ const products = [
     title: "KURABİYE",
     description: "Farklı tatlar ve şekillerde özenle hazırlanan, her lokması mutluluk dolu taptaze kurabiyeler.",
     button: button,
-    link: "/cookies" // Yeni bir link ekliyoruz
+    link: "/cookies" 
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const products = [
     title: "KEK",
     description: "Yumuşacık dokusu ve zengin tatlarıyla her anınıza lezzet katacak ev yapımı kekler.",
     button: button,
-    link: "/cakes" // Yeni bir link ekliyoruz
+    link: "/cakes" 
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const products = [
     title: "ÇİKOLATA",
     description: "Özel günlerinizi unutulmaz kılacak, şık ve zarif hediye seçenekleri. Sevdiklerinize tatlı sürprizler!",
     button: button,
-    link: "/chocolate" // Yeni bir link ekliyoruz
+    link: "/chocolate" 
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const products = [
     title: "HEDİYELİK",
     description: "Zengin kakao tadı ve kaliteli malzemelerle hazırlanan, damaklarda iz bırakan çikolatalar.",
     button: button,
-    link: "/gifts" // Yeni bir link ekliyoruz
+    link: "/gifts" 
   },
 ];
 
